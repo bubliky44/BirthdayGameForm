@@ -221,6 +221,7 @@ import { getStorage, ref, uploadBytes, getDownloadURL } from 'https://www.gstati
 
 /* ── Firebase ─────────────────────────────────────────────── */
 let fbCfg = { apiKey:'AIzaSyCA25qJJBLRODFje9WCqpaThn_aoNVupHE', authDomain:'birthdaygame-b0124.firebaseapp.com', projectId:'birthdaygame-b0124', storageBucket:'birthdaygame-b0124.firebasestorage.app', messagingSenderId:'345793699157', appId:'1:345793699157:web:b8ca81db0619ea2d67e3dc' };
+initFb(fbCfg);
 let app=null, db=null, storage=null;
 
 function initFb(cfg) {
@@ -354,3 +355,4 @@ function resetForm() {
 
 </body>
 </html>
+
